@@ -1,0 +1,26 @@
+footer{
+    width: 100%;
+    height: 50px;
+    border-top:1px solid #ccc;
+    background: white;
+}
+
+footer ul{
+    height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+list-style: none;
+}
+
+footer ul li{
+    text-align: center;
+    color: #ccc;
+}
+
+footer ul li dt{
+    font-size: 13px!important;}
+
+footer ul li dd .iconfont{
+    font-size: 24px;
+}

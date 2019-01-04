@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 55px;
+    background: #ff88ae;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search,.list{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo{
+    padding: 0 30px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}

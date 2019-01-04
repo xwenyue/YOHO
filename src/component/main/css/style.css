@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.mainbox{
+    overflow: hidden;
+    width:100%;
+    flex:1;
+}
+
+.routbox{
+    flex:1;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
